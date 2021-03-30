@@ -16,6 +16,8 @@
 		FDE45670260BBA3800B711CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE4566E260BBA3800B711CE /* LaunchScreen.storyboard */; };
 		FDE4567B260BBA3800B711CE /* Caps_Network_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4567A260BBA3800B711CE /* Caps_Network_AppTests.swift */; };
 		FDE45686260BBA3800B711CE /* Caps_Network_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE45685260BBA3800B711CE /* Caps_Network_AppUITests.swift */; };
+		FDE4569C260D028C00B711CE /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4569B260D028C00B711CE /* LoginScreenViewController.swift */; };
+		FDE4569E260D0DA100B711CE /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4569D260D0DA100B711CE /* DesignableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		FDE45681260BBA3800B711CE /* Caps Network AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Caps Network AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE45685260BBA3800B711CE /* Caps_Network_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caps_Network_AppUITests.swift; sourceTree = "<group>"; };
 		FDE45687260BBA3800B711CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE4569B260D028C00B711CE /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		FDE4569D260D0DA100B711CE /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +107,10 @@
 			children = (
 				FDE45661260BBA3500B711CE /* AppDelegate.swift */,
 				FDE45663260BBA3500B711CE /* SceneDelegate.swift */,
+				FDE4569D260D0DA100B711CE /* DesignableView.swift */,
 				FDE45665260BBA3500B711CE /* FirstViewController.swift */,
 				FDE45667260BBA3500B711CE /* SecondViewController.swift */,
+				FDE4569B260D028C00B711CE /* LoginScreenViewController.swift */,
 				FDE45669260BBA3500B711CE /* Main.storyboard */,
 				FDE4566C260BBA3800B711CE /* Assets.xcassets */,
 				FDE4566E260BBA3800B711CE /* LaunchScreen.storyboard */,
@@ -264,7 +270,9 @@
 			files = (
 				FDE45668260BBA3500B711CE /* SecondViewController.swift in Sources */,
 				FDE45666260BBA3500B711CE /* FirstViewController.swift in Sources */,
+				FDE4569E260D0DA100B711CE /* DesignableView.swift in Sources */,
 				FDE45662260BBA3500B711CE /* AppDelegate.swift in Sources */,
+				FDE4569C260D028C00B711CE /* LoginScreenViewController.swift in Sources */,
 				FDE45664260BBA3500B711CE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
