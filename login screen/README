@@ -1,0 +1,2 @@
+#This is the code for the login screen of the app. The rest of the app framework is a storyboard file but this one is a swiftui file since it wouldn't function
+#properly in a storyboard file,so you'll have to figure out how to import this code into the storyboard framework. 
